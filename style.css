@@ -22,3 +22,43 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+main{
+    position: relative;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.35);
+    height: 60rem;
+    width: 100rem;
+    backdrop-filter: blur(200px);
+    filter: blur();
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+}
+
+.player{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 9rem;
+    align-items: center;
+    transition: all 0.75s;
+}
+
+.name{
+    position: relative;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.score{
+    align-items: center;
+    font-size: 8rem;
+    color: #c7365f;
+    font-weight: 300;
+    margin-bottom: auto;
+}
